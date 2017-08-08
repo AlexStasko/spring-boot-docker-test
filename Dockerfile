@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-alpine
+FROM dockerfile/java:oracle-java8
 VOLUME /tmp
 ADD build/libs/helloworld-1.0-SNAPSHOT.jar app.jar
 ENV JAVA_OPTS=""
